@@ -1,5 +1,5 @@
 variable region {
-  default = "eu-west-1"
+  default = "eu-central-1"
 }
 variable AMIS {
   type        = map(string)
