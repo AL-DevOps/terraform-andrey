@@ -1,5 +1,5 @@
 resource "aws_instance" "andrey-example" {
-  ami           = var.AMIS[var.region]
+  ami           = var.AMIS[var.AWS_REGION]
   instance_type = "t2.micro"
   subnet_id= "subnet-06ce4996838ec4d88"
   vpc_security_group_ids = ["sg-04f2d5d1786a702f1"]
