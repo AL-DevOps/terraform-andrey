@@ -1,4 +1,4 @@
-variable region {
+variable "AWS_REGION {
   default = "eu-central-1"
 }
 variable AMIS {
